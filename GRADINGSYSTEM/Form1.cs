@@ -46,8 +46,8 @@ namespace GRADINGSYSTEM
         {
             if (txtUsername.Text == "admin" && txtPassword.Text == "admin")
             {
-                Menu Menu = new Menu();
-                Menu.Show();
+                progressbar pb = new progressbar();
+                pb.Show();
                 this.Hide();
 
             }
